@@ -1,0 +1,87 @@
+.registration {
+
+    &__body {
+        position: relative;
+        background-color: $white;
+        width: 80%;
+        margin: 0 auto;
+        height: 800px;
+    }
+    &__form{
+    padding-top: 150px;
+    width: 250px;
+    margin: 0 auto;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+
+		&__colums {
+		}
+}
+.item-registration {
+
+
+
+		&__row1 {
+		}
+
+
+
+		&__login {
+		}
+
+	
+		&__password {
+		}
+
+
+		&__repassword {
+		}
+
+
+
+		&__mail {
+		}
+
+
+		&__row2 {
+		}
+
+	
+
+		&__avatar {
+		}
+
+
+
+		&__date {
+		}
+
+
+		&__buttons {
+		}
+}
+.label {
+}
+.item-registrationn {
+
+
+
+		&__tel {
+		}
+
+
+
+		&__chek {
+		}
+}
+.button {
+
+
+    &:nth-child(2){
+        width: 250px;
+    }
+}
+}
