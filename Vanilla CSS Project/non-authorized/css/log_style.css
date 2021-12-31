@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+}
+
+header {
+    height: 40px;
+    background-color: #4d5373;
+}
+
+header img{
+    float: left;
+    width: 30px; 
+}
+
+header p{
+    margin-left: 50px;
+}
+
+.reg {
+    right: 50px;
+    margin-top: 5px;
+    position: absolute;
+    color: #4d5373; 
+    padding: 5px; 
+    padding-right: 20px;
+    padding-left: 20px;
+    border-radius: 10px;
+}
+
+.in{
+    right: 200px;
+    margin-top: 5px;
+    position: absolute;
+    color: #4d5373; 
+    padding: 5px; 
+    padding-right: 20px;
+    padding-left: 20px;
+    border-radius: 10px;
+}
+
+.sng > .form-container {
+    border: 10px solid var(--main-color);
+    padding: 3rem 5rem;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    mix-blend-mode: color-burn;
+}
+
+.sng > .form-container > h2 {
+    padding-left: 80px;
+    color: #4d5373; 
+}
+
+.sng > .form-container > form {
+    flex-direction: column;
+}
+
+.sng > .form-container > form > p {
+    color: #4d5373;
+    transform: translate(0px, 15px)
+}
+
+.sng > .form-container > form > input { 
+    border-radius: 5px;
+    font-family: inherit;
+    height: 40px;
+    font-size: 1em;
+    padding-left: 15px;
+    margin-top: 5%;
+}
+
+.sng > .form-container > form > .log{
+    position: absolute;
+    margin-top: -10px;
+    margin-left: 0px;
+    color: #9096B2; 
+}
+
+.sng > .form-container > form > .line{
+    position: absolute;
+    margin-top: -10px;
+    margin-left: 100px;
+    color: #9096B2; 
+}
+
+.sng > .form-container > form > .pas{
+    position: absolute;
+    margin-top: -10px;
+    margin-left: 110px;
+    color: #9096B2; 
+}
+
+.sng > .form-container > form > .inbtn{
+    position: absolute;
+    margin-top: 100px;
+    margin-left: -170px;
+    background: #9096B2;
+    color: white; 
+    padding: 5px; 
+    padding-right: 50px;
+    padding-left: 50px;
+    border-radius: 5px;
+}
+
+.sng > .form-container > form > .regbtn{
+    position: absolute;
+    margin-top: 140px;
+    margin-left: -210px;
+    background: #9096B2;
+    color: white; 
+    padding: 5px; 
+    padding-right: 70px;
+    padding-left: 70px;
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+  }
+
+::-webkit-scrollbar-thumb {
+    background: #4d5373;
+    border-radius: 10px;
+  }

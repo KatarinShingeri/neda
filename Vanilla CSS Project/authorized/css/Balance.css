@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+}
+
+header {
+    height: 40px;
+    background-color: #4d5373;
+}
+
+header .logo{
+    float: left;
+    width: 30px; 
+}
+
+header p{
+    margin-left: 50px;
+}
+
+.exit {
+    right: 50px;
+    margin-top: 5px;
+    position: absolute;
+    color: #4d5373; 
+    padding: 5px; 
+    padding-right: 20px;
+    padding-left: 20px;
+    border-radius: 10px;
+}
+
+.value{
+    right: 150px;
+    position: absolute;
+    color: #4d5373; 
+    padding: 5px; 
+}
+
+.ava{
+    right: 270px;
+    position: absolute;
+    color: #4d5373; 
+    padding: 5px; 
+    width: 30px;
+}
+
+.sng > .form-container {
+    border: 10px solid var(--main-color);
+    padding: 3rem 5rem;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    mix-blend-mode: color-burn;
+}
+
+.sng > .form-container > h2 {
+    padding-left: 80px;
+    color: #4d5373; 
+}
+
+.sng > .form-container > form {
+    flex-direction: column;
+}
+
+.sng > .form-container > form > .l {
+    color: #4d5373;
+    transform: translate(-240px, 40px)
+}
+
+.sng > .form-container > form > .lo {
+    color: #4d5373;
+    transform: translate(110px, -70px)
+}
+
+.sng > .form-container > form > .lol {
+    color: #4d5373;
+    transform: translate(100px, 15px)
+}
+
+.sng > .form-container > form > img {
+    transform: translate(-50px, 30px)
+}
+
+.sng > .form-container > form > .solo { 
+    border-radius: 5px;
+    font-family: inherit;
+    height: 40px;
+    width: 50%;
+    font-size: 1em;
+    padding-left: 15px;
+    margin-top: 50px;
+    margin-left: -250px;
+}
+
+.sng > .form-container > form > .duo { 
+    border-radius: 5px;
+    font-family: inherit;
+    height: 40px;
+    width: 90%;
+    font-size: 1em;
+    padding-left: 15px;
+    margin-top: -60px;
+    margin-left: 100px;
+}
+
+.sng > .form-container > form > .accept{
+    position: absolute;
+    background: #9096B2;
+    color: white; 
+    padding: 10px; 
+    border-radius: 5px;
+    transform: translate(500px, -60px);
+}
+
+.sng > .form-container > form > .inbtn{
+    position: absolute;
+    background: #9096B2;
+    color: white; 
+    padding: 10px; 
+    padding-right: 40px;
+    padding-left: 40px;
+    border-radius: 5px;
+    transform: translate(0px, 100px);
+}
+
+.sng > .form-container > form > .regbtn{
+    position: absolute;
+    background: #9096B2;
+    color: white; 
+    padding: 10px; 
+    padding-right: 30px;
+    padding-left: 30px;
+    border-radius: 5px;
+    transform: translate(200px, 100px);
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+  }
+
+::-webkit-scrollbar-thumb {
+    background: #4d5373;
+    border-radius: 10px;
+  }
