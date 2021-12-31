@@ -1,0 +1,18 @@
+@import 'base/variables';
+@import 'base/fonts';
+@import 'base/link';
+@import 'base/input';
+@import 'components/buttons';
+@import 'components/autorization';
+@import 'components/header';
+@import 'vendors/normalize';
+body {
+    background-color: $grey_light;
+  
+}
+html{
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+

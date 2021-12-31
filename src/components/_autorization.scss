@@ -1,0 +1,60 @@
+.autorization {
+
+    &__body {
+        position: relative;
+        background-color: $white;
+        width: 70%;
+        margin: 0 auto;
+        height: 800px;
+    }
+&__form{
+    padding-top: 150px;
+    width: 250px;
+    margin: 0 auto;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  
+}
+    &__head {
+        text-align: center;
+    }
+
+    &__title {
+    }
+
+    &__row {
+        height: 350px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+       
+    }
+
+    &__login {
+        width: 100%;
+    }
+
+    &__password {
+    }
+
+    &__forget {
+        text-align: center;
+    }
+
+    &__buttons {
+    align-items: center;
+        height: 100px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+       
+    }
+}
+
+button{
+    &:nth-child(2){
+        width: 250px;
+    }
+}
