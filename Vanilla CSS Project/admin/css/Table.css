@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+}
+
+header {
+    height: 40px;
+    background-color: #4d5373;
+}
+
+header .logo{
+    float: left;
+    width: 30px; 
+}
+
+header p{
+    margin-left: 50px;
+}
+.exit {
+    right: 50px;
+    margin-top: 5px;
+    position: absolute;
+    color: #4d5373; 
+    padding: 5px; 
+    padding-right: 20px;
+    padding-left: 20px;
+    border-radius: 10px;
+}
+
+.control{
+    right: 320px;
+    margin-top: 2px;
+    position: absolute;
+    color: #4d5373; 
+    border-radius: 10px;
+}
+
+.value{
+    right: 150px;
+    position: absolute;
+    color: #4d5373; 
+    padding: 5px; 
+}
+
+.ava{
+    right: 270px;
+    position: absolute;
+    color: #4d5373; 
+    padding: 5px; 
+    width: 30px;
+}
+
+h2 {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 20px;
+    padding: 1%;
+    color: white;
+    background-color: #9096B2;
+}
+
+table {
+    margin-left: 10%;
+    border-collapse: collapse; 
+    line-height: 1.1;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+th {
+    padding: 10px; 
+    border: 2px solid #9096B2;
+}
+
+.sng > .form-container {
+    border: 10px solid var(--main-color);
+    padding: 3rem 5rem;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    mix-blend-mode: color-burn;
+}
+
+.sng > .form-container > .con {
+    padding-left: 80px;
+    color: #4d5373; 
+}
+
+.sng > .form-container > form {
+    flex-direction: column;
+}
+
+.sng > .form-container > form > .add {
+    position: absolute;
+    background: #9096B2;
+    color: white; 
+    padding: 10px; 
+    padding-right: 30px;
+    padding-left: 30px;
+    border-radius: 5px;
+    transform: translate(300px, 100px);
+}
+
+.sng > .form-container > form > .data {
+    position: absolute;
+    background: #9096B2;
+    color: white; 
+    padding: 10px; 
+    padding-right: 30px;
+    padding-left: 30px;
+    border-radius: 5px;
+    transform: translate(200px, 100px);
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+  }
+
+::-webkit-scrollbar-thumb {
+    background: #4d5373;
+    border-radius: 10px;
+  }
